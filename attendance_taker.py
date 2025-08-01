@@ -11,9 +11,9 @@ import smtplib
 from email.mime.text import MIMEText
 
 def send_email(subject, body, date):
-    sender = 'laibashehzad921@gmail.com'
-    receiver = 'laibamaalik921@gmail.com'
-    password = 'mmvoeadnveittcgn'
+    sender = 'sender-email@gmail.com'
+    receiver = 'receiver-email@gmail.com'
+    password = 'password'
 
     msg = MIMEText(body)
     msg['Subject'] = f"{subject} - {date}"
